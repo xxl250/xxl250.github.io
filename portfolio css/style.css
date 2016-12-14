@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text|Eczar);
+
+
+
+body {
+  font-size: 20px;
+  font-family: 'Eczar', serif;
+  color: #eee;
+  margin:0;
+  background-color: rgb(18, 33, 18);
+  border-color: rgb(171,78,78);
+}
+h1 {
+  font-family: 'Crimson Text', serif;
+  font-size: 90px;
+  text-align: left;
+  margin: 0;
+  color: #eee;
+}
+nav ul li {
+  display: inline-block;
+  float: right;
+  margin: 10px;
+
+
+}
+#header {
+  max-width: 960px;
+  height: 600px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 20px;
+
+  background:  url("cover.jpg");
+}
+
+
+#container {
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 20px;
+
+}
+article {
+  height: 600px;
+}
+
+
+#front a:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+a:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+#left-col,
+#right-col {
+  max-width: 460px;
+  margin-top: 20px;
+}
+
+#left-col {
+  float: left;
+  margin-right: 40px;
+}
+
+#right-col {
+  float: right;
+}

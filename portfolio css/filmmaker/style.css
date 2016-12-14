@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text|Eczar);
+
+
+
+body {
+  font-size: 20px;
+  font-family: 'Eczar', serif;
+  color: #eee;
+  margin:0;
+  background-color: rgb(18, 33, 18);
+  border-color: rgb(171,78,78);
+}
+h1 {
+  font-family: 'Crimson Text', serif;
+  font-size: 90px;
+  text-align: left;
+  margin: 0;
+  color: #eee;
+}
+nav ul li {
+  display: inline-block;
+  float: right;
+  margin: 10px;
+
+
+}
+
+a:hover {
+  color:rgb(102, 204, 255);
+}
+
+#header {
+  max-width: 960px;
+  height: 600px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 20px;
+  background:  url("yellow silk scarf.png" );
+}
+
+
+#container {
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 20px;
+
+}
+
+main {
+  margin-top: 20px;
+}
+
+
+article {
+
+  height: 315px;
+}
+
+
+#left-col,
+#right-col {
+  max-width: 450px;
+  margin-top: 20px;
+}
+
+#left-col {
+  float: left;
+  margin-right: 40px;
+}
+
+#right-col {
+  float: right;
+}

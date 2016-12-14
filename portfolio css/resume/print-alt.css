@@ -1,0 +1,99 @@
+* {
+  background: transparent; !important
+  color: black;
+  font-family: serif;
+  font-size: 12pt;
+}
+
+@page {
+  margin: 0.3in 0.5in;
+}
+
+h1 {
+  font-size: 30pt;
+  text-align: center;
+}
+header ul li{
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+}
+h2 {
+  letter-spacing: 1pt;
+  border-bottom: 2pt solid #222;
+  margin-left: 0.1in;
+}
+h3 {
+  font-size: 12pt;
+  margin: 0;
+}
+ul#pipes {
+  text-align: center;
+
+}
+ul#pipes li:after {
+  content: " | ";
+}
+ul#pipes li:last-child:after {
+  content: ""; /* removes pipe after 'Five' */
+}
+
+section,
+article{
+  margin-bottom: 0.05in;
+}
+#education {
+  max-width: 3.5in;
+  height: 2.6in;
+
+
+
+}
+#experience {
+  max-width: 3.5in;
+  height: 8.54in;
+
+
+}
+#research {
+  width: 3.5in;
+  height: 2.6in;
+
+
+}
+#activities {
+  width: 3.5in;
+  height: 2in;
+
+
+}
+#skills {
+  width: 4in;
+  height: 2.4in;
+
+
+
+}
+#interests {
+  width: 3.5in;
+  height: 2.4in;
+
+}
+div {
+  display: inline-block;
+
+}
+
+#left-col,
+#right-col {
+  max-width: 3.5in;
+}
+
+#left-col {
+  float: left;
+  margin-right: 0.4in;
+}
+
+#right-col {
+  float: right;
+}

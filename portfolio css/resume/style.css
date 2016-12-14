@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text|Eczar);
+
+
+
+body {
+  font-size: 16px;
+  font-family: 'Eczar', serif;
+  color: #222;
+  margin:0;
+  background-color: rgb(18, 33, 18);
+  border-color: rgb(171,78,78);
+}
+h1 {
+  font-family: 'Crimson Text', serif;
+  font-size: 72px;
+  text-align: center;
+  margin: 0;
+}
+header ul li{
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+
+}
+
+ul#pipes {
+  text-align: center;
+
+}
+
+ul#pipes li:after {
+  content: " | ";
+}
+ul#pipes li:last-child:after {
+  content: ""; /* removes pipe after 'Five' */
+}
+
+
+
+#container {
+  max-width: 960px;
+  margin: 0.5em auto;
+  overflow: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 10px 10px 5px 0 rgb(128, 115, 77);
+  background:  url("paper.jpg");
+}
+
+
+
+main h2 {
+  letter-spacing: 0.1em;
+  border-bottom: 10px solid #222;
+  margin-left: 10px:
+}
+
+h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+#education {
+  max-width: 460px;
+  height: 360px;
+  margin-bottom: 20px;
+  border: #222
+
+}
+#experience {
+  max-width: 460px;
+  height: 820px;
+  margin-bottom: 20px;
+
+}
+#research {
+  width: 460px;
+  height:360px;
+  margin-bottom: 20px;
+
+}
+#activities {
+  width: 460px;
+  height:260px;
+  margin-bottom: 20px;
+
+}
+#skills {
+  width: 460px;
+  height:290px;
+
+
+}
+#interests {
+  width: 460px;
+  height: 230px;
+  border-color: #222;
+}
+
+}
+div {
+  display: inline-block;
+
+}
+
+#left-col,
+#right-col {
+  max-width: 460px;
+}
+
+#left-col {
+  float: left;
+  margin-right: 40px;
+}
+
+#right-col {
+  float: right;
+}
